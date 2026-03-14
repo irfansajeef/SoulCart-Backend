@@ -58,7 +58,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://soul-cart-frontend.vercel.app"
+                "https://soul-cart-frontend.vercel.app",
+                "https://soul-cart-frontend-t7d8x3l3u-irfansajeefs-projects.vercel.app"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
